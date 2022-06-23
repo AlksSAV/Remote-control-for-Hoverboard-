@@ -6,3 +6,5 @@ In the Arduino IDE, add to the board manager - https://dl.espressif.com/dl/packa
 First you need to determine the MAC address of the receiver. To do this, use "GetMacAddress.ino" Then proceed to the firmware of the transmitter and receiver.
 
 An example of the work on my channel https://youtu.be/sdt3OQeafr4
+
+Description of the firmware of the hoverboard boards https://github.com/EFeru/hoverboard-firmware-hack-FOC.git
