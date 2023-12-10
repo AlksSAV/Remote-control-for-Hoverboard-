@@ -6,10 +6,12 @@ Radio control of the hoverboard using the ESP-NOW protocol. This repository cont
 ----------
 
 **Receiver \ Приемник**
-![Screenshot](Receiver.jpg)
+
+![Screenshot](Receiver.png)
 
 **Transmitter \ Передатчик**
-![Screenshot](Transmitter.jpg)
+
+![Screenshot](Transmitter.png)
 
 ----------
 Настройки в Arduino IDE\
