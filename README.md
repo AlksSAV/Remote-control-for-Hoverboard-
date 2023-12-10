@@ -14,6 +14,13 @@ Radio control of the hoverboard using the ESP-NOW protocol. This repository cont
 ![Screenshot](Transmitter.png)
 
 ----------
+
+# Компоненты (Aliexpress)
+- ESP32  https://megabonus.com/y/0IjwZ 
+- Джостик https://megabonus.com/y/RnG4p
+
+---------
+
 Настройки в Arduino IDE\
 In the Arduino IDE, add to the board manager - https://dl.espressif.com/dl/package_esp32_index.json
 
