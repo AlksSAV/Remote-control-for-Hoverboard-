@@ -1,35 +1,23 @@
 # Remote-control-for-Hoverboard-
-Radio control of the hoverboard using the ESP-NOW protocol. This repository contains code for 3 channel  transmitter and receiver. **The board must be under PWM mode.**\
-
-Радиоуправление ховербордом с использованием протокола ESP-NOW. Это хранилище содержит код для 3-канального передатчика и приемника. **Плата должна быть прошита под режим PWM.**
+Radio control of the hoverboard(or RC models also) using the ESP-NOW protocol. This repository contains code for 3 channel  transmitter and receiver. **The board must be under PWM mode.**
 
 ----------
 
-**Receiver \ Приемник**
+**Receiver**
 
 ![Screenshot](Receiver.png)
 
-**Transmitter \ Передатчик**
+**Transmitter**
 
 ![Screenshot](Transmitter.png)
 
-----------
-
-# Компоненты (Aliexpress)
-- ESP32  https://megabonus.com/y/0IjwZ 
-- Джостик https://megabonus.com/y/RnG4p
-
 ---------
 
-Настройки в Arduino IDE\
+Arduino IDE
 In the Arduino IDE, add to the board manager - https://dl.espressif.com/dl/package_esp32_index.json
 
 -----------
-First you need to determine the MAC address of the receiver. To do this, use "GetMacAddress.ino" Then proceed to the firmware of the transmitter and receiver.\
-Сначала вам нужно определить MAC-адрес приемника. Для этого воспользуйтесь "GetMacAddress.ino", затем перейдите к прошивке передатчика и приемника.
+First you need to determine the MAC address of the receiver. To do this, use "GetMacAddress.ino" Then proceed to the firmware of the transmitter and receiver.
+Description of the firmware of the hoverboard boards https://github.com/EFeru/hoverboard-firmware-hack-FOC.git
 
-Ссылка на прошивку. https://github.com/EFeru/hoverboard-firmware-hack-FOC.git \ 
-Description of the firmware of the hoverboard boards
-
-An example of the work on my channel\
-Пример работы https://youtu.be/sdt3OQeafr4
+An example of the work on my channel https://youtu.be/sdt3OQeafr4
